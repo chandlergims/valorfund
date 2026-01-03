@@ -8,11 +8,11 @@ export default function Footer() {
             <a href="/" className="text-xs text-gray-600 hover:text-black transition-colors">Home</a>
             <a href="/charities" className="text-xs text-gray-600 hover:text-black transition-colors">Charities</a>
             <a href="/claims" className="text-xs text-gray-600 hover:text-black transition-colors">Submit Claim</a>
-            <a href="https://medium.com" target="_blank" rel="noopener noreferrer" className="text-xs text-gray-600 hover:text-black transition-colors">Medium</a>
+            <a href="https://medium.com/@valorfund/valor-fund-8cccab6a6093" target="_blank" rel="noopener noreferrer" className="text-xs text-gray-600 hover:text-black transition-colors">Medium</a>
           </div>
           
           {/* Center - Copyright */}
-          <p className="text-xs text-gray-600 absolute left-1/2 -translate-x-1/2">© 2026 Freedom Fund. Supporting our veterans.</p>
+          <p className="text-xs text-gray-600 absolute left-1/2 -translate-x-1/2">© 2026 Valor Fund. Supporting our veterans.</p>
           
           {/* Right - Social Icon */}
           <a 

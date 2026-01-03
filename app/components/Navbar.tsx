@@ -5,8 +5,9 @@ export default function Navbar() {
         <div className="flex justify-between items-center h-16">
           {/* Left - Logo */}
           <div className="flex items-center w-48">
-            <a href="/" className="text-lg font-bold text-black tracking-tight hover:text-gray-700 transition-colors">
-              Freedom Fund
+            <a href="/" className="flex items-center gap-2 hover:opacity-80 transition-opacity">
+              <img src="/Arena (56).png" alt="Valor Fund" className="h-8 w-8 object-contain" />
+              <span className="text-lg font-bold text-black tracking-tight">Valor Fund</span>
             </a>
           </div>
           
@@ -25,7 +26,7 @@ export default function Navbar() {
               Submit Claim
             </a>
             <a 
-              href="https://medium.com" 
+              href="https://medium.com/@valorfund/valor-fund-8cccab6a6093" 
               target="_blank"
               rel="noopener noreferrer"
               className="text-sm font-semibold text-black hover:bg-gray-100 px-4 py-2 rounded-full transition-all"

@@ -14,8 +14,11 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Freedom Fund",
-  description: "Supporting our veterans",
+  title: "Valor Fund - Supporting Our Veterans",
+  description: "The first USD1 project supporting a cause. WLFI Support-a-Cause Batch 1 - Transparent funding for veterans.",
+  icons: {
+    icon: "/Arena (56).png",
+  },
 };
 
 export default function RootLayout({
